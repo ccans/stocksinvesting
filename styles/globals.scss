@@ -4,7 +4,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  transition: 0.3s;
+  transition:  0.3s all;
   }
 
 a {
@@ -21,8 +21,7 @@ body.dark-mode {
 
   .header {
     height: 64px;
-    width:100vw;
-    background-color: blue;
+    background-color: #000440;
   }
 }
 body.light-mode {
@@ -30,7 +29,6 @@ body.light-mode {
 
   .header {
     height: 64px;
-    width:100vw;
     background-color: coral;
   }
 }
