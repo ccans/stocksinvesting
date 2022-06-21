@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -12,9 +11,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
+      <main className={styles.main} >
         <h1 className={styles.title}>
-          Welcome to <Link href="/indextwo">Next.js!</Link>
+          Welcome to Page 2!
         </h1>
 
         <p className={styles.description}>
@@ -23,7 +22,7 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href="/indextwo" className={styles.card}>
+          <a href="https://nextjs.org/docs" className={styles.card}>
             <h2>Documentation &rarr;</h2>
             <p>Find in-depth information about Next.js features and API.</p>
           </a>
