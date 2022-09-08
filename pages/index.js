@@ -1,8 +1,8 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
-import Link from 'next/link'
-import InfoCard from '../components/InfoCard'
+import Head from "next/head"
+import Image from "next/image"
+import styles from "../styles/Home.module.css"
+import Link from "next/link"
+import InfoCard from "../components/InfoCard"
 
 export default function Home() {
 
@@ -39,7 +39,7 @@ export default function Home() {
           </h1>
           <br />
           <br />
-          <a href="https://docs.google.com/forms/d/1kn6M-43CxOu1jQVRCP3dt3GRh_qzDc-KfWolZJbpSio/edit#responses" className='signUpButtonTextAlt'> Join us </a>
+          <a href="https://docs.google.com/forms/d/1kn6M-43CxOu1jQVRCP3dt3GRh_qzDc-KfWolZJbpSio/edit#responses" className="signUpButtonTextAlt"> Join us </a>
       </main>
       <svg version="1.1" width="1080" height="280" preserveAspectRatio="none" viewBox="0 0 1080 280" style={{width: "100%", position: "absolute", left: "0px"}}>
     <g mask="url(&quot;#SvgjsMask1102&quot;)" fill="none">
@@ -53,16 +53,16 @@ export default function Home() {
     </defs>
 </svg>
 
-      <div className='pageTwo'> 
-        <div className='pageContainer'>
-          <div className='leftContainer'>
-            <div className='pageTitle'> Our Mission</div>
-            <div className='pageTextBig'> Stocks don't have to be difficult. </div>
-            <div className='pageText'> Investing is often inaccessible. Technical jargon and lack of education on the subject create barriers to entry, with more than half of the country having no investment in the stock market at all. <br /> <br /> At Wayzata SIC, we aim to provide an accessible pathway for students to enter the field of stocks and investing. We offer a series of lectures that teach students everything from investment strategies and market trends, to how to read market indicators and how to create a balanced portfolio. We want teach our generation not just how to invest, but how to invest well. </div>
+      <div className="pageTwo"> 
+        <div className="pageContainer">
+          <div className="leftContainer">
+            <div className="pageTitle"> Our Mission</div>
+            <div className="pageTextBig"> Stocks don"t have to be difficult. </div>
+            <div className="pageText"> Investing is often inaccessible. Technical jargon and lack of education on the subject create barriers to entry, with more than half of the country having no investment in the stock market at all. <br /> <br /> At Wayzata SIC, we aim to provide an accessible pathway for students to enter the field of stocks and investing. We offer a series of lectures that teach students everything from investment strategies and market trends, to how to read market indicators and how to create a balanced portfolio. We want teach our generation not just how to invest, but how to invest well. </div>
             <br />
-            <div className='pageText bold'> We look forward to seeing you. <a href="https://docs.google.com/forms/d/1kn6M-43CxOu1jQVRCP3dt3GRh_qzDc-KfWolZJbpSio/edit#responses" className='signUpButtonText'> Join us </a> </div>
+            <div className="pageText bold"> We look forward to seeing you. <a href="https://docs.google.com/forms/d/1kn6M-43CxOu1jQVRCP3dt3GRh_qzDc-KfWolZJbpSio/edit#responses" className="signUpButtonText"> Join us </a> </div>
           </div>
-          <div className='pageImage'> <img className="pageImageImage" src="/stock.png" /> </div>
+          <div className="pageImage"> <img className="pageImageImage" src="/stock.png" /> </div>
         </div>
       </div>
       <svg version="1.1" width="1080" height="280" preserveAspectRatio="none" viewBox="0 0 1080 280" style={{width: "100%", marginTop: "-1px", position: "absolute", left: "0px", transform: "rotate(180deg)"}}>
@@ -77,20 +77,20 @@ export default function Home() {
     </defs>
 </svg>
 
-    <div className='pageThree'>
-      <div className='pageTitle'> Meet the Team</div>
-      <div className='pageBox'> 
+    <div className="pageThree">
+      <div className="pageTitle"> Meet the Team</div>
+      <div className="pageBox"> 
         {childrenArr}
       </div>
-      <div className='pageBox'> 
+      <div className="pageBox"> 
         {childrenArrTwo}
       </div>
-      <div className='pageFour'>
-        <div className='pageTitle pageFourTitle'> Our Sponsors </div>
-        <div className='pageBox'> 
-          <div className='infocardSpecial'> 
-            <div className='infoTitle'> Muntaha Issa Agency </div>
-            <img className='sponsor-image' src="/sponsor.png" />
+      <div className="pageFour">
+        <div className="pageTitle pageFourTitle"> Our Sponsors </div>
+        <div className="pageBox"> 
+          <div className="infocardSpecial"> 
+            <div className="infoTitle"> Muntaha Issa Agency </div>
+            <img className="sponsor-image" src="/sponsor.png" />
           </div>
         </div>
       </div>
