@@ -57,7 +57,7 @@ export default function Home() {
         <div className="pageContainer">
           <div className="leftContainer">
             <div className="pageTitle"> Our Mission</div>
-            <div className="pageTextBig"> Stocks don"t have to be difficult. </div>
+            <div className="pageTextBig"> Stocks don&#39;t have to be difficult. </div>
             <div className="pageText"> Investing is often inaccessible. Technical jargon and lack of education on the subject create barriers to entry, with more than half of the country having no investment in the stock market at all. <br /> <br /> At Wayzata SIC, we aim to provide an accessible pathway for students to enter the field of stocks and investing. We offer a series of lectures that teach students everything from investment strategies and market trends, to how to read market indicators and how to create a balanced portfolio. We want teach our generation not just how to invest, but how to invest well. </div>
             <br />
             <div className="pageText bold"> We look forward to seeing you. <a href="https://docs.google.com/forms/d/1kn6M-43CxOu1jQVRCP3dt3GRh_qzDc-KfWolZJbpSio/edit#responses" className="signUpButtonText"> Join us </a> </div>
