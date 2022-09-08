@@ -1,11 +1,11 @@
 import React from 'react'
 import styles from '../styles/Header.module.css'
 
-function Header({darkMode}) {
+function Header({children}) {
 
 
   return (
-    <div className='header'> <a onClick={darkMode.toggle}> Zesty ass header </a> </div>
+    <div className='header'> {children} </div>
   )
 }
 
